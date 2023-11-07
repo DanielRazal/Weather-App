@@ -9,8 +9,11 @@ The Weather-App project has been deployed to the Internet. You can access it usi
 
 ## Running the Project
 
-### `npm start`
+To run the **"Weather-App"** project, execute the following commands:
 
-To run the application you need to create a user in **openweathermap** and you get an **API KEY** with which you can run the application.\
-You will need to create an .env file and use this API:\
-**https://api.openweathermap.org/data/2.5/weather?q={cityName}&appid={API key}**
+### Client (React):
+
+1. Go to the **openweathermap** website and create your **API KEY** and add it to **.env**\
+like this: **https://api.openweathermap.org/data/2.5/weather?q={cityName}&appid={API key}**.
+1. Install client dependencies: **npm i**
+2. Start the React app: **npm start**
